@@ -1,13 +1,36 @@
-# Pierinho13 Java Helper
+# Homebrew Tools
 
-## How do I install this formula?
+Official Homebrew tap for tools created by Pierinho13.
 
-`brew install pierinho13/tools/java-helper`
+## Available tools
 
-Or `brew tap pierinho13/tools` and then `brew install java-helper`.
+| Tool | Description |
+|------|-------------|
+| java-helper | Simplifies Java environment management. |
+| kubectl-peek | Interactive Kubernetes shell manager. |
+| cmdpeek | Execute reusable YAML commands from the terminal. |
+| ... | ... |
 
-Or, in a `brew bundle` `Brewfile`:
+## Installation
 
-```ruby
-tap "pierinho13/tools"
-brew "java-helper"
+brew tap pierinho13/tools
+
+Install a tool:
+
+brew install java-helper
+
+or
+
+brew install cmdpeek
+
+## Updating
+
+brew update
+brew upgrade
+
+## Contributing
+
+Issues and pull requests are welcome.
+
+## License
+MIT
